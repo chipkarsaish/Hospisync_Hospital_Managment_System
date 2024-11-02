@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #b4a7e3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.toolbar {
+    background-color: #e6e6e6;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.toolbar button, .toolbar select, .toolbar input {
+    padding: 5px 10px;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.vacant {
+    background-color: green;
+    color: white;
+}
+
+.occupied {
+    background-color: red;
+    color: white;
+}
+
+.housekeeping {
+    background-color: orange;
+    color: white;
+}
+
+.retain {
+    background-color: rgb(32, 21, 186);
+    color: white;
+}
+
+.blocked {
+    background-color: gray;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.room {
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.vacant { background-color: #28a745; }
+.occupied { background-color: #dc3545; }
+.selected {
+    background-color: yellow !important;
+    color: black;
+}
+.vacant {
+    background-color: green;
+    color: white;
+}
